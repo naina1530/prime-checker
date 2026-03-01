@@ -6,6 +6,6 @@ def check_prime(num):
             return "Not Prime"
     return "Prime"
 
-number = int(input("Enter a NUMBER: "))
+number = int(input("Enter a Number: "))
 result = check_prime(number)
 print("The number is:", result)
